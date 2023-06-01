@@ -14,7 +14,7 @@
 
 	"database":	0,
 	"ssl": {
-	      "enabled": true,
+	      "enabled": true
 	},  
 	"acl": [
 		{
