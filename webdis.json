@@ -3,12 +3,6 @@
 
 	"redis_port":	6379,
 	"redis_auth":	"aslkdjkkjadwkljdaslkjdwqklqajd39821ikdjal",
-	"ssl": {
-    "enabled": true,
-    "ca_cert_bundle": "/etc/letsencrypt/archive/dexcelerate.com/fullchain1.pem",
-    "client_cert": "/etc/letsencrypt/archive/dexcelerate.com/cert1.pem",
-    "client_key": "/etc/letsencrypt/archive/dexcelerate.com/privkey1.pem"
-},
 	"http_host":	"0.0.0.0",
 	"http_port":	7379,
 
@@ -19,7 +13,12 @@
 	"websockets":	false,
 
 	"database":	0,
-
+	"ssl": {
+	    "enabled": true,
+	    "ca_cert_bundle": "/etc/letsencrypt/archive/dexcelerate.com/fullchain1.pem",
+	    "client_cert": "/etc/letsencrypt/archive/dexcelerate.com/cert1.pem",
+	    "client_key": "/etc/letsencrypt/archive/dexcelerate.com/privkey1.pem"
+	},
 	"acl": [
 		{
 			"disabled":	["DEBUG"]
