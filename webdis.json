@@ -13,9 +13,6 @@
 	"websockets":	false,
 
 	"database":	0,
-	"ssl": {
-	      "enabled": true
-	},  
 	"acl": [
 		{
 			"disabled":	["DEBUG"]
